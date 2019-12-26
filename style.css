@@ -1,0 +1,210 @@
+body {
+font-family: Ariel;
+font-size:18px;
+line-height:1.5;
+padding:0;
+margin:0;
+background-color:#fff;
+}
+
+/*global*/
+
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+/*header*/
+
+header{
+  background:#001a1a;
+  padding-top:20px;
+  min-height:55px;
+  border-bottom:yellow 2px solid;
+}
+
+header a{
+  color:#fff;
+  text-decoration:none;
+  font-size:25px;
+}
+
+header li{
+  display:inline;
+  padding:0 15px 0 15px;
+}
+
+header #branding{
+  float:right;
+  padding-right:40px;
+}
+
+header img{
+  height:50px;
+}
+header nav{
+  float:left;
+  padding-left: 45px;
+  font-family: narkisim;
+}
+
+/*showcase*/
+
+#showcase{
+  min-height: 400px;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+#showcase h1{
+  margin-top:110px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size: 20px;
+  padding:0 65px 0 65px;
+}
+
+/*general-info*/
+
+#general-info{
+  margin-top:1px;
+}
+
+#general-info .general{
+  float:right;
+  width:43%;
+  padding:20px;
+  box-shadow: 3px 3px 2px #664400;
+  margin:15px;
+  min-height:300px;
+}
+
+#general-info .general h2{
+  font-size:35px;
+  color: black;
+}
+
+#general-info .general a{
+  text-decoration: none;
+}
+
+#about{
+  background-image:url('./images/lagur-logo.jpg');
+  opacity:0.8;
+}
+
+#about:hover{
+  opacity:1.0;
+}
+
+#criteria{
+  background-image:url('./images/criteria.jpg');
+  opacity:0.8
+}
+
+#criteria:hover{
+  opacity:1.0;
+}
+/*boxes*/
+
+#boxes{
+  margin-left:65px;
+  margin-right:65px;
+  font-size: 20px;
+}
+
+
+#boxes .box1{
+  border-top:2px solid #001a1a;
+}
+
+#boxes .box1 img{
+  float:right;
+  padding-left:20px;
+}
+
+
+#boxes .box2{
+  float:left;
+  border-top:2px solid #001a1a;
+}
+
+#boxes .box2 img{
+  float:left;
+}
+
+#boxes .box1 a, .box2 a{
+  text-decoration: none;
+}
+
+
+#boxes .box1 a:hover, .box2 a:hover{
+  opacity: 0.9;
+}
+
+/*vaadot*/
+
+#vaadot {
+  min-height: 380px;
+}
+
+#vaadot p{
+  font-size:40px;
+  text-align:center;
+}
+
+#vaadot a{
+  text-decoration: none;
+}
+
+/*haskamot*/
+
+#haskamot{
+  min-height:400px;
+}
+
+/*info-section this was a trial you can probably delete it.
+
+#info{
+  background: #5d86bb;
+  color: #fff;
+  border-bottom: 2px solid yellow;
+}
+
+#info .specific-info1{
+  padding:10px;
+  margin:10px;
+  border: 1px solid yellow;
+  background: #4256c6;
+  width:14%;
+  text-align:center;
+  float:right;
+  margin-right:40px;
+}
+
+#info .specific-info2{
+  padding:10px;
+  margin:10px;
+  border: 1px solid yellow;
+  background: green;
+  width:14%;
+  text-align:center;
+  float:right;
+  margin-right:40px;
+}
+*/
+/*footer*/
+
+footer{
+  padding:3px;
+  margin-top:1px;
+  color:#fff;
+  background:#664400;
+  text-align:center;
+  border-top:yellow 1px solid;
+}
